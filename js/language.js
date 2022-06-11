@@ -6,10 +6,10 @@ function languageChange(language)
 		document.getElementById("welcometext").innerHTML = "Sur cette page, vous trouverez les informations necessaires pour le mariage.";
 		
 		document.getElementById("datelocationtitle").innerHTML = "Dates et Emplacements";                                                                                
-                document.getElementById("datelocationtext").innerHTML = "Tenez-vous au courants des heures.";
+                document.getElementById("datelocationtext").innerHTML = "Tenez-vous au courant du lieu et de l'heure.";
 
-		document.getElementById("donationtitle").innerHTML = "Donnes";
-		document.getElementById("donationtext").innerHTML = "Nous apprecions toutes donnes pour contribuer envers le mariage.";
+		document.getElementById("donationtitle").innerHTML = "Cadeau de mariage";
+		document.getElementById("donationtext").innerHTML = "Nous sommes ravis que vous vous soyez rendu à notre mariage. Si vous souhaitez apporter une contribution à notre voyage de noces, veuillez utiliser les informations ci-dessous";
 		console.log("French");
 	}
 	else if(language == "NL")
@@ -24,8 +24,8 @@ function languageChange(language)
 		document.getElementById("datelocationtitle").innerHTML = "Dates and Location";
 		document.getElementById("datelocationtext").innerHTML = "Please familiar yourself with where you need to be and when.";
 		
-		document.getElementById("donationtitle").innerHTML = "Donations";
-		document.getElementById("donationtext").innerHTML = "We appreciate any donations to contribute towards the wedding.";
+		document.getElementById("donationtitle").innerHTML = "Wedding Gift";
+		document.getElementById("donationtext").innerHTML = "We are delighted that you have made it to our wedding. If you do wish to make a contribution towards our honeymoon please use the information below:";
 		console.log("English");
 	}
 }
