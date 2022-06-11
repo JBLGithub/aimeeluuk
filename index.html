@@ -1,17 +1,39 @@
 <!DOCTYPE html>
 <html>
 <head>
+	
 	<title>Aimee & Luuk</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="stylesheet" type="text/css" href="css/header.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+	<script src="js/language.js"></script>
 </head>
 <body>
 	<header>
-		<h1>Aimee & Luuk</h1>
+		<h1 id="headertitle">Aimee & Luuk</h1
+		><div id="langmenu">
+			<button onclick="languageChange()">EN</button>
+			<button onclick="languageChange('FR')">FR</button>
+			<button onclick="languageChange('NL')">NL</button>
+		</div>
 	</header>
 	<div class="bcontainer">
-		<h2>Welcome to our wedding page!</h2>
+		<h2 id="welcometitle"></h2>
+		<p id="welcometext"></p>
 	</div>
+	<div class="bcontainer">
+		<h2 id="datelocationtitle"></h2>
+		<p id="datelocationtext"></p>
+	</div>
+	<div class="bcontainer">
+		<h2 id="donationtitle">Donations</h2>
+		<p id="donationtext">We appreciate any donations to contribute towards the wedding.</p>
+	</div>
+	<script>
+		languageChange();
+	</script>
 </body>
 </html>

@@ -7,3 +7,33 @@ header
 	padding: 20px 0 20px 0;
 	color: white;
 }
+
+#headertitle
+{
+	display: inline-block;
+	width: 60%;
+	margin-left: 20%;
+	vertical-align: middle;
+}
+
+#langmenu
+{
+	display: inline-block;
+	width: 20%;
+	vertical-align: middle;
+}
+
+#langmenu button
+{
+	font-size: 25px;
+	border: none;
+	background: none;
+	color: white;
+	padding: 5px;
+}
+
+#langmenu button:hover
+{
+	background-color: white;
+	color: #138D75;
+}
