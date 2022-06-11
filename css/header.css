@@ -37,3 +37,20 @@ header
 	background-color: white;
 	color: #138D75;
 }
+
+
+@media only screen and (max-width:800px)
+{
+	#headertitle
+	{
+		display: block;
+		width: 100%;
+		margin: 0;
+	}
+
+	#langmenu
+	{
+		display: block;
+		width: 100%;
+	}
+}
