@@ -7,7 +7,7 @@
 
 body 
 {
-	background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url('../images/fiestalola.jpg');
+	background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url('../images/backimage.png');
 	background-size: contain, 100%;
 	overflow: auto;
 }
