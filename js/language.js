@@ -27,7 +27,7 @@ function languageChange(language)
 	else if(language == "NL")
 	{
 		document.getElementById("welcometitle").innerHTML = "Welkom op onze bruiloft website!";
-		document.getElementById("welcometext").innerHTML = "On this page, you will find all the information you need involving the wedding.";
+		document.getElementById("welcometext").innerHTML = "Op deze pagina vindt u alle informatie met betrekking tot de bruiloft.";
 
 		document.getElementById("datelocationtitle").innerHTML = "Dates and Location";
 		document.getElementById("datelocationtext").innerHTML = "Please familiarise yourself with where you need to be and when.";
