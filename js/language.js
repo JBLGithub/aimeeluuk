@@ -24,7 +24,7 @@ function languageChange(language)
 		document.getElementById("welcometext").innerHTML = "On this page, you will find all the information you need involving the wedding.";
 
 		document.getElementById("datelocationtitle").innerHTML = "Dates, Location and Dress Code";
-		document.getElementById("datelocationtext").innerHTML = "Please familiar yourself with where you need to be and when.";
+		document.getElementById("datelocationtext").innerHTML = "Please familiarise yourself with where you need to be and when.";
 		document.getElementById("datelocationtiming").innerHTML = "Please arrive at 30 Hakkesstraat, 5916 PX Venlo on the 2nd of July for 2.00PM."
 		document.getElementById("datelocationdress").innerHTML = "The dress code is Colourful and Festive!"
 		
