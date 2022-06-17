@@ -11,7 +11,7 @@ function languageChange(language)
 		document.getElementById("datelocationdress").innerHTML = "Le code vestimentaire est color&eacute et festif!"
 
 		document.getElementById("donationtitle").innerHTML = "Cadeau de mariage";
-		document.getElementById("donationtext").innerHTML = "Nous sommes ravis que vous vous soyez rendu &aacute notre mariage. Si vous souhaitez apporter une contribution &aacute notre voyage de noces, veuillez utiliser les informations ci-dessous";
+		document.getElementById("donationtext").innerHTML = "Nous sommes ravis que vous vous soyez rendu &aacute notre mariage. Si vous souhaitez apporter une contribution &aacute notre voyage de noces, veuillez utiliser le lien ci-dessous:";
 		console.log("French");
 	}
 	else if(language == "NL")
@@ -29,7 +29,7 @@ function languageChange(language)
 		document.getElementById("datelocationdress").innerHTML = "The dress code is Colourful and Festive!"
 		
 		document.getElementById("donationtitle").innerHTML = "Wedding Gift";
-		document.getElementById("donationtext").innerHTML = "We are delighted that you have made it to our wedding. If you do wish to make a contribution towards our honeymoon please use the information below:";
+		document.getElementById("donationtext").innerHTML = "We are delighted that you have made it to our wedding. If you do wish to make a contribution towards our honeymoon please use the link below:";
 		console.log("English");
 	}
 }
