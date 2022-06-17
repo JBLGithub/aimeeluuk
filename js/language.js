@@ -29,12 +29,12 @@ function languageChange(language)
 		document.getElementById("welcometitle").innerHTML = "Welkom op onze bruiloft website!";
 		document.getElementById("welcometext").innerHTML = "Op deze pagina vindt u alle informatie met betrekking tot de bruiloft.";
 
-		document.getElementById("datelocationtitle").innerHTML = "Dates and Location";
-		document.getElementById("datelocationtext").innerHTML = "Please familiarise yourself with where you need to be and when.";
-		document.getElementById("datelocationtiming").innerHTML = "Please arrive at 30 Hakkesstraat, 5916 PX Venlo on the 2nd of July for 2.00PM.";
+		document.getElementById("datelocationtitle").innerHTML = "Datum en Locatie";
+		document.getElementById("datelocationtext").innerHTML = "Maak uzelf vertrouwd met waar u moet zijn en wanneer.";
+		document.getElementById("datelocationtiming").innerHTML = "De bruiloft begint om 14:00 uur op 30 Hakkesstraat 5916PX te Venlo.";
 		
-		document.getElementById("busestitle").innerHTML = "Buses";
-		document.getElementById("busestext").innerHTML = "Buses to and from the venue will be provided.";
+		document.getElementById("busestitle").innerHTML = "De Bus";
+		document.getElementById("busestext").innerHTML = "De bus van en naar de trouwlocatie wordt voor u geregeld.";
 		document.getElementById("busestext1").innerHTML = "Leaving from Roompot Vakanties Resort Arcen at 1:30pm. The return trip leaves at 2:00am.";
 		document.getElementById("busestext2").innerHTML = "Leaving from Kruisweg 10, 5944 EN Arcen at 1:40pm. The return trip leaves at 2:00am.";
 
