@@ -15,15 +15,12 @@
 
 #checkoutbox a
 {
-	display: block;
 	width: 100%;
 	padding: 20px;
 	background-color: #2471A3;
 	border-radius: 5px;
 	box-sizing: border-box;
 	color: white;
-	text-transform: none;
-	text-decoration: none;
 	border: 2px solid #2471A3;
 }
 

@@ -47,6 +47,15 @@ a
 {
 	font-size: 25px;
 	margin: 20px 0 20px 0;
+	text-transform: none;
+	text-decoration: none;
+	display: block;
+	color: #2471A3;
+}
+
+a:hover 
+{
+	color: #34495E;
 }
 
 @media only screen and (max-width:600px)
